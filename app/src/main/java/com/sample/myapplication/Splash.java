@@ -32,7 +32,6 @@ public class Splash extends AppCompatActivity {
             return true;
         } catch (GooglePlayServicesRepairableException e) {
             return false;
-
         } catch (GooglePlayServicesNotAvailableException e) {
             return false;
         }
